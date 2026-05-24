@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\utils",
+    "\\cypress",
+    "\\frontend",
+    "\\frontend\\public",
+    "\\frontend\\src",
+    "\\test",
+    "\\test\\api",
+    "\\test\\e2e"
+  ],
+  "PreviewInSolutionExplorer": false
+}

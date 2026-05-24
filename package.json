@@ -1,0 +1,36 @@
+{
+  "name": "projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/test/e2e/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanimajic/expense-reimbursement-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/stefanimajic/expense-reimbursement-system/issues"
+  },
+  "homepage": "https://github.com/stefanimajic/expense-reimbursement-system#readme",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "eslint": "^10.4.0",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
