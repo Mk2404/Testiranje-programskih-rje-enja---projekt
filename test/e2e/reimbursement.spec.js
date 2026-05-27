@@ -96,7 +96,7 @@ beforeEach(() => {
       
       cy.contains('Logout').click();
       cy.get('[data-testid="username-input"]').type('admin');
-      cy.get('[data-testid="password-input"]').type('adminPass'); // bilo adminPass
+      cy.get('[data-testid="password-input"]').type('adminPass'); 
       cy.get('[data-testid="login-button"]').click();
       cy.contains('Dashboard - Admin').should('be.visible');
       cy.contains('Travel expenses for meeting').should('be.visible');
